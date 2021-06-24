@@ -1,0 +1,22 @@
+{
+  "name": "CPersonPrefrenceKit",
+  "version": "1",
+  "summary": "个人设置组件库",
+  "description": "TODO: 个人设置组件库个人设置组件库个人设置组件库个人设置组件库个人设置组件库个人设置组件库.",
+  "homepage": "https://github.com/jackczw/CPersonPrefrenceKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jackczw": "1565201275@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/jackczw/CPersonPrefrenceKit.git",
+    "tag": "1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "CPersonPrefrenceKit/Classes/**/*"
+}

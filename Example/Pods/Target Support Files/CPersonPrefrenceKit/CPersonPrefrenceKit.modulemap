@@ -1,0 +1,6 @@
+framework module CPersonPrefrenceKit {
+  umbrella header "CPersonPrefrenceKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

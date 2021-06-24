@@ -1,0 +1,6 @@
+framework module Pods_CPersonPrefrenceKit_Example {
+  umbrella header "Pods-CPersonPrefrenceKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

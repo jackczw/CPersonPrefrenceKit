@@ -1,0 +1,16 @@
+PODS:
+  - CPersonPrefrenceKit (1)
+
+DEPENDENCIES:
+  - CPersonPrefrenceKit (from `../`)
+
+EXTERNAL SOURCES:
+  CPersonPrefrenceKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPersonPrefrenceKit: 9f858e6f65a7d58aec3055fe875bdfe73f84e3c5
+
+PODFILE CHECKSUM: 70a02189fbd999c0e75924c37f31291790e527c2
+
+COCOAPODS: 1.10.0

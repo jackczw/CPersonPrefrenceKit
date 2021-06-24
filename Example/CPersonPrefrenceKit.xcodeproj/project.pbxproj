@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		238794C6852D7F9E71B0E5A3 /* Pods_CPersonPrefrenceKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPersonPrefrenceKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F563ADDD4608B2AFDCCDC7 /* Pods_CPersonPrefrenceKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPersonPrefrenceKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5647F34D8D8079568D0EE848 /* CPersonPrefrenceKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CPersonPrefrenceKit.podspec; path = ../CPersonPrefrenceKit.podspec; sourceTree = "<group>"; };
+		5647F34D8D8079568D0EE848 /* CPersonPrefrenceKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CPersonPrefrenceKit.podspec; path = ../CPersonPrefrenceKit.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CPersonPrefrenceKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CPersonPrefrenceKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74658D8902BC26683C3B6BA9 /* Pods-CPersonPrefrenceKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPersonPrefrenceKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-CPersonPrefrenceKit_Tests/Pods-CPersonPrefrenceKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B172252841452E2F3FBA5B3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C3EDFA5571D4746C406B471D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B172252841452E2F3FBA5B3C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C3EDFA5571D4746C406B471D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C4ED159E1B1023C6F9113B78 /* Pods-CPersonPrefrenceKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPersonPrefrenceKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-CPersonPrefrenceKit_Example/Pods-CPersonPrefrenceKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FF21834B21A5F64E7FCF7725 /* Pods-CPersonPrefrenceKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPersonPrefrenceKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CPersonPrefrenceKit_Tests/Pods-CPersonPrefrenceKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				FF21834B21A5F64E7FCF7725 /* Pods-CPersonPrefrenceKit_Tests.debug.xcconfig */,
 				74658D8902BC26683C3B6BA9 /* Pods-CPersonPrefrenceKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,9 +494,11 @@
 			baseConfigurationReference = C4ED159E1B1023C6F9113B78 /* Pods-CPersonPrefrenceKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPersonPrefrenceKit/CPersonPrefrenceKit-Prefix.pch";
 				INFOPLIST_FILE = "CPersonPrefrenceKit/CPersonPrefrenceKit-Info.plist";
+				MARKETING_VERSION = 1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,9 +512,11 @@
 			baseConfigurationReference = 6787891B617784275C0A94D2 /* Pods-CPersonPrefrenceKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 1;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CPersonPrefrenceKit/CPersonPrefrenceKit-Prefix.pch";
 				INFOPLIST_FILE = "CPersonPrefrenceKit/CPersonPrefrenceKit-Info.plist";
+				MARKETING_VERSION = 1;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
